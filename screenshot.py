@@ -1,15 +1,20 @@
 from selenium import webdriver
 import time
 
-FOLDER_PATH = '/Users/lars/Dropbox/Steffi-Screenshots/'
-URL = 'https://www.google.se/maps/@55.5832991,12.9951087,15z/data=!5m1!1e1'
+FOLDER_PATH = '/Users/lars/Dropbox/Screenshots/'
+URL = 'https://www.google.com/maps/@55.5828026,13.0005887,16z/data=!5m1!1e1'
 
 def do():
-    options = webdriver.ChromeOptions();
-    options.add_argument("--kiosk");
-    options.add_argument("no-sandbox");
-    browser = webdriver.Chrome(chrome_options = options)
+    #options = webdriver.FirefoxOptions();
+    #options.add_argument("--kiosk");
+    browser = webdriver.Firefox()
+
+    #browser.maximize_window()
+    #browser.implicitly_wait(30)
+
+    browser.set_window_size(1280, 800)
     browser.get(URL)
+    time.sleep(4)
     filename = time.strftime("%Y%m%d-%H%M%S")
     print 'Taking screenshot %s.' % filename
     browser.save_screenshot(FOLDER_PATH + filename + '.png')
