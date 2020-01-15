@@ -33,4 +33,4 @@ Place the drivers in the `bin` folder or make them available in you `PATH`.
 
 * Choose Google Maps area in a web browser and set it in `screenshot.py`
 * Set the right schedule in `timer.py`
-* Run it with `python timer.py`, alternatively run `./run.sh`
+* Run it with `python timer.py`, or with `./run.sh`
