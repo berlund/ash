@@ -1,8 +1,11 @@
 from selenium import webdriver
 import time
 
-FOLDER_PATH = '/Users/lars/Dropbox/Screenshots/'
-URL = 'https://www.google.com/maps/@56.0187018,14.1109588,16z/data=!5m1!1e1'
+# The folder where the screenshots will be placed
+FOLDER_PATH = ''
+
+# The web address to take a screenshot of
+URL = ''
 
 def do():
     #options = webdriver.FirefoxOptions();
