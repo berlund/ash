@@ -1,4 +1,4 @@
 *.pyc
 bin
-geckodriver.log
+env
 .vscode/settings.json

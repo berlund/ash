@@ -33,6 +33,6 @@ Place the drivers in the `bin` folder or make them available in you `PATH`.
 
 ## Usage
 
-* Choose Google Maps area in a web browser and set it in `screenshot.py`
+* Pick a url you want to create a screenshot of and set it in `URL` in `screenshot.py`
 * Set the right schedule in `timer.py`
 * Run it with `python timer.py`, or with `./run.sh`
