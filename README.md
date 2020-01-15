@@ -1,4 +1,6 @@
-# Auto screen capture for Google Maps
+# Auto screen shot for web pages
+
+A stupid simple script for taking scheduled screenshots of web pages using Selenium.
 
 ## Prerequisites
 
@@ -14,12 +16,12 @@ Although not strictly needed, it is recommended to run this script in virtual en
 If you are done, you can leave your virtual env running
 
 ```bash
-deactivate
+> deactivate
 ```
 
 ### Python dependencies
 Install Python dependencies with
-```
+```bash
 > pip install -r requirements.txt
 ```
 
