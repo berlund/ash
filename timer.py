@@ -11,13 +11,13 @@ def job():
         print(traceback.format_exc())
     
 
-schedule.every(1).minutes.do(job)
-
-# schedule.every().day.at("08:00").do(job)
-# schedule.every().day.at("08:15").do(job)
-# schedule.every().day.at("08:30").do(job)
-# schedule.every().day.at("08:45").do(job)
-# schedule.every().day.at("09:00").do(job)
+#7-8, 16-17
+schedule.every(1).minute.do(job)
+schedule.every().day.at("07:00").do(job)
+schedule.every().day.at("07:15").do(job)
+schedule.every().day.at("07:30").do(job)
+schedule.every().day.at("07:45").do(job)
+schedule.every().day.at("08:00").do(job)
 
 
 
